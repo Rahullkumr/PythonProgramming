@@ -6,6 +6,5 @@ n = ''
 
 for i in s:
     if i.isnumeric():
-        print(sum)
         sum += int(i)
-print(sum)
+print(f'Sum of digits is: {sum}')
