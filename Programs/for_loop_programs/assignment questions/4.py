@@ -6,11 +6,18 @@ o/p:
 '''
 
 s = "hellohai"
-# count = 1
-print(s.count('h'))
 
-for ch in s:
-    if s.count(ch) > 1:
-        print("-", end="")
-    else:
-        print(ch, end="")
+# for ch in s:
+#     if s.count(ch) > 1:
+#         print("-", end="")
+#     else:
+#         print(ch, end="")
+
+
+# sir's way
+
+for i in s:
+    if s.count(i) > 1:
+        s = s.replace(i, '-')
+
+print(s)
