@@ -1,0 +1,1 @@
+# 1.wap to check the given number is even or odd (take user input)
