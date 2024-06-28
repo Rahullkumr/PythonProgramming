@@ -24,8 +24,10 @@
 
 12. [If-else](https://drive.google.com/file/d/1UH2h7InEv9bpPomsUsgbed_ke3wsd6L-/view?usp=sharing)
 
-13. [For loop]()
+13. [For loop](https://drive.google.com/file/d/1xdQRCIgRD1ANnzGYJ8CrG-SNHYEza78H/view?usp=sharing)
 
-14. []()
+14. [While loop](https://drive.google.com/file/d/1tTG0aiy2Y92kSfTB_6rVSPFS4Iaz1_P1/view?usp=sharing)
 
-15. []()
+15. [Comprehension](https://drive.google.com/file/d/1foR4E3zA8f86kSXB0YkIT9Kd5mxuPYI3/view?usp=sharing)
+
+16. [Function](https://drive.google.com/file/d/1_Bhy-lbLXc_SBGJjV94Wl5WWCNDxdtnb/view?usp=sharing)
