@@ -43,3 +43,9 @@ def combi(*args, **kwargs):
     print(args, kwargs) # (10, 22, 33) {'a': 4, 'b': 6, 'c': 11, 'd': 'hello'}
 
 combi(10, 22, 33, a=4,b=6,c=11,d='hello')
+
+# 
+s={1,2,3,3,6}
+print(s)
+s.add('new')
+print(s)
