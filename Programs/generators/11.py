@@ -6,10 +6,12 @@ def generate():
     l2 = []
     for i in a:
         if isinstance(i, (int, float, complex, bool)):
-           yield str(i)[::-1]
+           reversed_no = str(i)[::-1]
+           yield reversed_no
         else:
            yield i
-    # yield l2
   
 out = generate()
+print(next(out))
+print(next(out))
 print(next(out))
