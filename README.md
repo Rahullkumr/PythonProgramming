@@ -9,16 +9,6 @@ programming questions and materials from PySpider
 ![list1](/images/l1.jpg)
 ![list2](/images/l2.jpg)
 
-## Programs
+## Data Analysis library
 
-1. If
-
-    1. wap
-
-2. if-else
-
-    1. wap
-
-3. for
-
-    1. wap
+1. Introduction to PANDAS
