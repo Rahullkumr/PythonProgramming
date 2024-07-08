@@ -1,6 +1,7 @@
 import os
 # print(os.getcwd())
 
+# os.chdir(r'/workspaces/PythonProgramming/file_handling_kachra') # for github codespace
 os.chdir(r'C:\Users\hp\Desktop\PythonProgramming\file_handling_kachra')
 # if you need to do CRUD in a particular path then you must goto that path first using os.chdir() i.e use above syntax
 
