@@ -1,8 +1,4 @@
-sunny
-bunny
-sunil
-good morning
-good afternoon
-good morning
-good afternoon
-morning python class
+good day
+hello world
+this is 
+python programming
