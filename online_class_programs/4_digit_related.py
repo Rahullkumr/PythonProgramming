@@ -98,3 +98,58 @@ while n != 0:
 	n //= 10
 
 print(f'Min: {min} \nMax: {max}')
+
+
+
+
+
+
+# 11 july 2024 (LAST DAY)
+
+# fibonacci series
+n = int(input("n: "))
+
+a,b = 0,1
+
+i = 0
+while i < n:
+	print(a, end=" ")
+	c = a + b
+	a = b
+	b = c 
+	i += 1
+
+# strong number: sum of factorial of digits = num
+
+n = int(input('n:'))
+s = 0
+temp = n 
+while n > 0:
+	rem = n % 10
+	f = 1
+	for i in range(1,rem+1):
+		f *= i 
+	s += f
+	n //= 10
+
+if temp == n:
+	print('strong')
+else:
+	print('not strong')
+
+# strong no between 1 and 1000
+for n in range(1, 1001):
+	s = 0
+	temp = n 
+	while n > 0:
+		rem = n % 10
+		f = 1
+		for i in range(1,rem+1):
+			f *= i 
+		s += f
+		n //= 10
+
+	if temp == n:
+		print('strong')
+	else:
+		print('not strong')

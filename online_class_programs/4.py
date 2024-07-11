@@ -1,1 +1,0 @@
-prime no wala; time complexity kaise kam hota hai
