@@ -1,0 +1,52 @@
+टाइमस्टँप,roll_num,name,middlename,surname,age,sgpa,gender,favorite_sport,native_city,year_of_passing_10th
+30/05/2023 14:26:35,2201184,Shubham,Kumar ,Sinha,23,8.29,Male,"Cricket , Football",Patna,2014
+30/05/2023 14:26:56,2201129,Pranav,Prashant,Modale,25,7.8,Male,Cricket,Pune,2014
+30/05/2023 14:27:27,2201125,Pratik ,Sharad ,Masalkar,,8.31,Male,Badminton,Pune,2017
+30/05/2023 14:27:43,2201154,Ranvir,Gajanan,Pawar,,8,Male,chess,buldana,2014
+30/05/2023 14:27:48,2201193,Siddhesh ,Suresh,Uttekar,21,8.4,Male,cricket,Pune,2016
+30/05/2023 14:28:03,2201115,Sairaj,Shirish,Lumpatki,20,8.71,Male,volleyball,Ahmednagar,2017
+30/05/2023 14:28:03,2201110,Rahul ,Kumar,Kumar,23,7.5,Male,Badminton,Ranchi,2015
+30/05/2023 14:28:06,2201124,Akash ,Sambhaji ,Markile,,7.79,Male,Cricket,Latur,2016
+30/05/2023 14:28:07,2201145,harsh ,subhash,patidar,22,8,Male,volleyball,indore,2016
+30/05/2023 14:28:08,2201105,Omkar,Milind,Kulkarni,22,9.81,Male,Sachin Tendulkar,Pune,2018
+30/05/2023 14:28:10,2201171,Prajwal,Pramod,Shendge,21,7.9,Male,Cricket,Miraj,2018
+30/05/2023 14:28:10,2201121,tejas ,Uttareshwar,mane,,7.85,Male,Cricket,Baramati,2016
+30/05/2023 14:28:11,2201159,Vaibhav,Kailas,Raut,,7,Male,Table tennis,Beed,2016
+30/05/2023 14:28:13,2201173,Gaurav ,Mohan,Shimpi,22,8.9,Male,cricket,Shahada,2017
+30/05/2023 14:28:15,2201182,sindura,singh,rathore,23,8.1,Female,cricket,muzzafarpur,2017
+30/05/2023 14:28:15,2201130,Hitesh ,Dnyaneshwar,Mohadikar,22,8.25,Male,Cricket,Nagpur,2017
+30/05/2023 14:28:16,2201163,Janhavi,Ajit,Sangaonkar,,8.75,Female,Badminton,Kolhapur,2017
+30/05/2023 14:28:20,2201195,Raj ,   ,Verma,23,7.71,Male,Cricket,Jamshedpur,2017
+30/05/2023 14:28:25,2201187,Manish, Maruti ,Teke,22,8.46,Male,Cricket,Pune,2016
+30/05/2023 14:28:26,1951022,muskan ,shabbir, shipai,21,8.05,Female,cricket,pune,2017
+30/05/2023 14:28:28,2201164,Ashutosh ,Ghansham,Saoji ,23,7.54,Male,Cricket,Akola,2017
+30/05/2023 14:28:29,2201133,VIVEK,YESHAVNT,MORE,21,7.6,Male,Table Tennis,Kolhapur,2017
+30/05/2023 14:28:32,2201175,Sharvari ,Sunil,Shinde,22,7.82,Female,cricket,karad,2016
+30/05/2023 14:28:38,2201190,Leena ,Sanjay,Thorat,22,7.89,Female,Badminton,Shirdi,2017
+30/05/2023 14:28:41,2201085,vedika ,Gorakshanth ,kandekar,22,8.89,Female,-,Ahmednagar,2017
+30/05/2023 14:28:47,2201144,Atharva ,Jayant,Paradkar,23,7.64,Male,Football,Pune,2016
+30/05/2023 14:28:48,2201196,himanshi ,  ,vyas,22,8.8,Female,cricket,indore,2017
+30/05/2023 14:28:58,220126,Harshita, ,Maurya,21,8.61,Female,Vollyball,Pune,2017
+30/05/2023 14:28:59,2201146,Aditi,Pandurang,Patil,21,8,Female,Football,Ahmednagar,2017
+30/05/2023 14:29:04,2201188,Akshata,vijay,thakre,,75,Female,cricket,pune,2017
+30/05/2023 14:29:03,2201141,Mahima ,Lallan,Pal,22,7.68,Female,badminton,patna,2015
+30/05/2023 14:29:06,2201113,Aishwarya,Prasad,Lokhande,22,9.1,Female,badminton,pune,2017
+30/05/2023 14:29:12,2201155,Manali ,Prayag,Petare,21,7.9,Female,Football,Sangli,2017
+30/05/2023 14:29:16,2201116,Ankita ,Tanaji, Madane,,7,Female,Cricket,karad,2017
+30/05/2023 14:29:17,2201152,Yash,Rajgonda,Patil,21,7.21,Male,Cricket,Kolhapur,2017
+30/05/2023 14:29:26,2201139,Apeksha ,D,Nimje,21,8,Female,Basketball,Nagpur,2017
+30/05/2023 14:29:34,2201206, Saurabh ,Sanjay,Zute,,7.5,Male,Cricket,Parbhani,2016
+30/05/2023 14:29:43,2201200,Kshitij,Kishor,Wani,,7.6,Male,Cricket,Nagpur,2015
+30/05/2023 14:29:46,2201123,Sandesh ,Sudhir ,Manohar,22,7.54,Male,Football,Mumbai,2016
+30/05/2023 14:29:59,2201158,Suyog,Bapurao,Raut,22,7.67,Male,cricket,pune,2017
+30/05/2023 14:30:07,2201104,Prerna ,Nitin,Kukade,21,7.4,Female,Badminton,Pune,2017
+30/05/2023 14:30:15,220143,sakshi,santosh,patidar,22,10,Female,cricket,durg,2015
+30/05/2023 14:30:17,2201205,Jyoti ,.,Yadav,,8.14,Female,Cricket,Alwar,2012
+30/05/2023 14:30:20,2201117,NILESH ,PRAKASH,MAHAJAN,22,7.56,Male,BADMINTON,WADGAON,2017
+30/05/2023 14:30:26,2201166,Pranav,Pravin,Sarkale,21,7.96,Male,Carrom,Pune,2017
+30/05/2023 14:30:32,2201167,Raj,Rajendra,kumar,22,9.6,Male,cricket,pune,2016
+30/05/2023 14:30:39,2201157,Nikhil,Ashok,Rande,,7,Male,Kabaddi,Akot,2016
+30/05/2023 14:31:04,2201118,‎ Shubham,‎ Sanjay,‎ Mali,21,9.15,Male,‎ Cricket,‎ Pune,2017
+30/05/2023 14:31:14,2201194,shraddha ,jaiprakash,varma,22,7.89,Female,badminton,wani,2017
+30/05/2023 14:31:18,2201106,Priya ,Pradip,Kulkarni,22,8,Female,Badminton,Pune,2017
+30/05/2023 14:31:47,2201107,Swapnil,Suhas,Kulkarni,22,7.28,Male,Cricket,Pune,2016
