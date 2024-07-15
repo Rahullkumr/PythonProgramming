@@ -30,4 +30,19 @@
 
 15. [Comprehension](https://drive.google.com/file/d/1foR4E3zA8f86kSXB0YkIT9Kd5mxuPYI3/view?usp=sharing)
 
-16. [Function](https://drive.google.com/file/d/1_Bhy-lbLXc_SBGJjV94Wl5WWCNDxdtnb/view?usp=sharing)
+16. [Function](https://drive.google.com/file/d/1LPkXY-jnYuKZ6vKwFmP_8YSICqxW0EZD/view?usp=sharing)
+
+17. [Generators](https://drive.google.com/file/d/1Rde1btrNsgyk0YA3Y6HCiVKSMbxSjW67/view?usp=sharing)
+
+18. [File Handling](https://drive.google.com/file/d/19jAfbaGQWweCS6hPIfWBslwKo9D2Ao3B/view?usp=sharing)
+
+19. [Exception Handling](https://drive.google.com/file/d/16dZiWLOybaxShoSyhZ4jECOh_dbTfdvi/view?usp=sharing)
+
+20. [Lambda function](https://drive.google.com/file/d/1D7k0PGJKvkPBAlfkwF2OdSEMzTk5MZcg/view?usp=sharing)
+
+21. []()
+
+# 2. Libraries
+
+1. [Pandas]()
+
