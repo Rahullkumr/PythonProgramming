@@ -69,12 +69,4 @@ e = Employee('emp24-389', 'Raj Mistri', 3000)
 e.display_emp_details()
 """
 
-
-
-
-# INHERITANCE
-# 1. SINGLE INHERITANCE / SINGLE LEVEL INHERITANCE
-# 2. MULTI LEVEL INHERITANCE
-
-
 # need attention
