@@ -104,12 +104,12 @@ print(re.findall(r'[A-Z]{5}[0-9]{4}[A-Z]{1}',a))
 
 # 12.How to fetch the protocols
 a="https://www.google.com"
-
 # o/p--->['https', 'www', 'google', 'com'] (i want first output like this )
 # o/p--->['https://www.google.com']        (second output)
+
 # """
 print(re.findall('[a-z]+',a))
-# print(re.findall('[]',a))
+print(re.findall('.+',a))
 
 # """
 
@@ -118,23 +118,17 @@ print(re.findall('[a-z]+',a))
 
 
 # 13.creating acronyms of the file format
-
-# file_format=["Graphic Interchange Format",
-
-#               "Advanced Audio Coding",
-
-#             "HyperText Markup Language",
-
-#              "Content Management System",
-
-#             "Windows Media,Audio",
-
-#             "Comma Separated values"]
+"""
+file_format=["Graphic Interchange Format","Advanced Audio Coding","HyperText Markup Language","Content Management System","Windows Media,Audio","Comma Separated Values"]
 
 
 # o/p-->GIF,AAC,HTML,CMS,WMA,CSV
 
-
+for i in file_format:
+    match = re.findall('[A-Z]', i)
+    # print(match)
+    print(''.join(match), end=" ")
+"""
 
 
 
