@@ -7,6 +7,36 @@ types of decorator:
 """
 
 # =========================================
+# BASIC DECORATOR vvvvi
+
+"""
+def decorator_fn(func):
+    def inner():
+        func()
+    return inner
+
+@decorator_fn      # ye ho rha hai -------> main_fn = decorator_fn(main_fn)
+def main_fn():
+    print("main function")
+
+main_fn()
+"""
+#       SAME AS
+
+"""
+def decorator_fn(func):
+    def inner():
+        func()
+    return inner
+
+def main_fn():
+    print("main function")
+
+main_fn = decorator_fn(main_fn)
+main_fn()
+"""
+
+# =========================================
 # wap to implement: before executing main fn wait for 5 sec
 # DELAY DECORATOR
 
@@ -162,6 +192,7 @@ check_even_odd(10)
 # =================================
 # decorator to return only +ve output from any substraction
 
+# """
 def outer(func):
     def inner(a,b):
         res = func(a,b)
@@ -172,4 +203,5 @@ def outer(func):
 def pos_output(a,b):
     return a-b 
 
-print(pos_output(1,3))
+print(f'Always shows positive ans = {pos_output(1,3)}')
+# """
