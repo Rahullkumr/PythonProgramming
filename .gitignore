@@ -1,2 +1,5 @@
+/shelf/
+/workspace.xml
 .venv
 __pycache__
+.idea

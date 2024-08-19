@@ -73,8 +73,11 @@ reduce(function_name, iterable)
 # Example
 from functools import reduce
 numbers = [1, 2, 3, 4, 5]
+
+
 def multiply(x, y):
     return x * y
+
 
 # Multiply all numbers together
 result = reduce(multiply, numbers)

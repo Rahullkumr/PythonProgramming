@@ -1,4 +1,4 @@
-print('hello from new file')
+print('Importing a fn from another file')
 
 def newfile_fn():
-    print('hello new fn')
+    print("it's me new fn")

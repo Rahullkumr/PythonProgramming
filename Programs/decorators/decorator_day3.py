@@ -18,8 +18,6 @@ def main_fn():
 main_fn()
 """
 
-
-
 # examples
 """
 import time
@@ -55,7 +53,6 @@ div(100,3)
 """
 
 
-
 # waDF to check the role of a person if role is admin, print username and pwd;
 # if employee, print access denied; if not both print invalid role
 def outer_most(r):
@@ -63,13 +60,16 @@ def outer_most(r):
         def inner(*a, **k):
             if r == 'admin':
                 print('access granted')
-                func(*a,**k)
+                func(*a, **k)
             elif r == 'employee':
                 print('access denied')
             else:
                 print('invalid role')
+
         return inner
+
     return outer
+
 
 # @outer_most('employee')
 @outer_most('admin')
@@ -78,5 +78,6 @@ def checking():
     uname = 'Rahul'
     pwd = '1234aswd'
     print(f'username: {uname} and password: {pwd}')
+
 
 checking()
