@@ -40,7 +40,51 @@
 
 20. [Lambda function](https://drive.google.com/file/d/1D7k0PGJKvkPBAlfkwF2OdSEMzTk5MZcg/view?usp=sharing)
 
-21. []()
+21. [OOP - class and object](https://drive.google.com/file/d/1ooeUttImppm9a1sKjFWydEWVqVpS1_o-/view?usp=sharing)
+
+22. [OOP - variables](https://drive.google.com/file/d/1_6zUKgZqebmrHcnxvZIqgof62OsZMuJE/view?usp=sharing)
+
+23. [OOP - methods](https://drive.google.com/file/d/136Xy9yckmFnFtAwHmo_4qRZ5cdbts1UF/view?usp=sharing)
+
+24. [OOP - constructor](https://drive.google.com/file/d/1Qn5nE121snkUvBdpe4vmlV45tAVRBhcj/view?usp=sharing)
+
+25. [OOP - overloading](https://drive.google.com/file/d/1SBz68p7cMIjZcUSqEdc8X8Dlom1pSD8K/view?usp=sharing)
+
+26. [OOP - COMPOSITION](https://drive.google.com/file/d/15RQ3bndlHk0vrtz5I4-jPjg1PZump46c/view?usp=sharing)
+
+27. [OOP - INHERITANCE](https://drive.google.com/file/d/1rNFOCAxqxOcvhbveWcT0W2381nlhAKxU/view?usp=sharing)
+
+28. [OOP - POLYMORPHISM](https://drive.google.com/file/d/1552-lxAFevIC5YFb_lPjlsZRBaxhxOWH/view?usp=sharing)
+
+    > Polymorphism is the chameleon of OOP. <br> It adapts, changes colors, and blends in wherever it’s needed.
+
+29. [OOP - ABSTRACTION](https://drive.google.com/file/d/1eoJo1Ul6PaQ3w1lERQO280u0jndYtNs_/view?usp=sharing)
+
+    > Imagine you’re building a magical coffee-making machine. <br>
+    Abstraction is like hiding away the internal details of how the machine works. <br>
+    Users just need to press a button labeled “Make coffee.” <br>
+    No need to understand the inner workings of water boiling, coffee grounds, or cup cleaning. <br>
+    It’s all abstracted into that magical button. ✨
+    
+    > In code terms, abstraction means simplifying complex systems by breaking them down into manageable and reusable components. <br>
+    <b>Hide the nitty-gritty details behind a clean interface.</b> 🚀
+
+30. [OOP - ENCAPSULATION](https://drive.google.com/file/d/1KXlh5m3NHx0I9u0CZsAikrL4K8FDJhHb/view?usp=sharing)
+
+    > Encapsulation is like wrapping your precious code in a protective bubble. 🛡️<br>
+     
+    > You group variables (attributes) and methods (functions) within a class. <br>
+    The outside world can’t mess with your internal implementation details. <br>
+    It’s like having a secret recipe—you don’t reveal all the spices; you just serve the delicious dish.
+
+    > So, encapsulation keeps your code safe, organized, and prevents unauthorized meddling. 🤫
+
+31. [Regular Expression](https://drive.google.com/file/d/10dZPUbRfaThuaAm8b7YLf6b2mOl87zg2/view?usp=sharing)
+
+32. [Decorators](https://drive.google.com/file/d/1V9UeNRXbslGBWt5TGVdlN_lO1Kj7JprX/view?usp=sharing)
+
+33. [Map and Filter](https://drive.google.com/file/d/1q_c31iRPoSJxl8l_Ni4bDfbehYtRCs9d/view?usp=sharing)
+
 
 # 2. Libraries
 

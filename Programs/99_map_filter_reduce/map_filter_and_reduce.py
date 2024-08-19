@@ -56,7 +56,7 @@ print(list(result))  # Output: [2, 4, 6, 8]
 
 
 
-# """FILTER()"""
+# """REDUCE()"""
 
 """
 The reduce() function, unlike map() and filter(), is not a built-in function; it is available in the functools module. It applies a rolling computation to pairs of elements in an iterable and reduces them to a single cumulative value.
