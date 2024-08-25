@@ -7,12 +7,12 @@ for i in l:
         l1.append(i)
     else:
         l2.append(i)
-print(l1+l2)
+print(l1 + l2)
 
 # ===========================================
 
 # second approach
-# print([0] * l.count(0) + [1] * l.count(1))
+# print([0] * l.count(0) + [1] * l.count(1))+
 
 # ===========================================
 

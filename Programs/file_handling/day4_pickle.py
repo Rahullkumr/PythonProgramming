@@ -17,3 +17,30 @@ os.popen('lastday.pkl')
 #     print(data)
 
 # os.popen('lastday.pkl')
+
+"""
+- Pickling is serialization; unpickling is deserialization.
+
+Pickling:
+
+It is the process of converting a Python object into a byte stream (a sequence of bytes) 
+to store it in a file or send it over a network.
+The 'pickle' module is used for this purpose.
+eg
+import pickle
+
+data = {'name': 'Alice', 'age': 25}
+with open('data.pkl', 'wb') as file:
+    pickle.dump(data, file)
+
+
+Unpickling:
+
+It is the reverse process, converting a byte stream back into a Python object.
+eg
+import pickle
+
+with open('data.pkl', 'rb') as file:
+    data = pickle.load(file)
+print(data)  # Output: {'name': 'Alice', 'age': 25}
+"""
