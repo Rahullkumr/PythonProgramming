@@ -1,1 +1,0 @@
-# 1.wap to check the number is odd (take user input)

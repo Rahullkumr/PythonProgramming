@@ -1,18 +1,5 @@
-a = [1,-2,3,-4,7,-8,9,-11,12]
 
-# continue
-# for i in a:
-#     if i > 0:
-#         continue
-#     print(i)
-'''
-for i in a:
-    if i > 0:
-        break 
-    print(i)
-'''
 # x = 'good day wasted'
-
 # for i in x:
 #     if i == 'a':
 #         break
@@ -24,7 +11,6 @@ for i in a:
 #     if i in 'aeiou':
 #         continue
 #     print(i, end="")
-
 # print()
 
 # reversed
@@ -47,6 +33,7 @@ for i in a:
 #     print(i)
 
 # zip_longest
+
 from itertools import zip_longest
 l = ['hello', 'hi', 'byebye']
 l2 = [3,1,4,7]

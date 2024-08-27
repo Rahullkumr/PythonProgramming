@@ -1,6 +1,14 @@
-<!-- def fn(parameter)
-    pass
-fn(argument) -->
+## Types of arguments
+
+1. Normal function calling with argument (positional arguments)
+2. positional only argument
+3. keyword only argument
+4. combination of positional only and keyword only argument
+5. combination of keyword only and positional only argument
+6. variable positional only argument
+7. variable keyword only argument
+8. combination of variable positional and variable keyword argument
+
 
 1. positional arguments 
 ```py

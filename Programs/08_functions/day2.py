@@ -31,7 +31,7 @@
 
 # 3. Non-local variable
 outer = 100
-def python():
+def pythonm():
     # print(outer)
     # print(inner) # UnboundLocalError: cannot access local variable 'inner' where it is not associated with a value
     inner = 111 # ...
@@ -43,6 +43,6 @@ def python():
         inner = 'rahul'
         print(inner)
     java()
-python()
+pythonm()
 # print(outer)
 # print(inner) # NameError: name 'inner' is not defined.

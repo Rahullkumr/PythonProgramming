@@ -1,1 +1,0 @@
-# 1.wap to check whether the given character is uppercase/lowercase/digit/special (with and without using inbuilt function)
