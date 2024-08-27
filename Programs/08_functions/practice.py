@@ -1,7 +1,7 @@
 # Function returns in tuple format if we return multiple values
 
 # 1. 
-# # op: print only even length words using functions
+# # op: print only even length words using 08_functions
 # x = ['walmart', 'India', 'snap', 'chat', 'fb', 'insta', 'whatsapp', 'group']
 
 # def even_len(x):

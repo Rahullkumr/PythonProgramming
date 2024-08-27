@@ -1,11 +1,11 @@
-# Dictionary comprehension
+# Dictionary 07_comprehension
 
 # syntax1: v_n = {key:value for loop condition} # without if and else condition
 # syntax2: v_n = {key:value for loop condition if condition} # with if statement
 # syntax3: v_n = {key:value if condition FSB for loop condition} # with if-else statement
 
 # 1.
-s = 'comprehension'
+s = '07_comprehension'
 # o/p: {'c': 99, 'o': 111, 'm': 109, 'p': 112, 'r': 114, 'e': 101, 'h': 104, 'n': 110, 's': 115, 'i': 105}
 # # normal
 # d = {}
@@ -14,7 +14,7 @@ s = 'comprehension'
 #     d[i] = ord(i)
 # print(d)
 
-# # using dictionary comprehension
+# # using dictionary 07_comprehension
 # d = {i:ord(i) for i in s}
 # print(d)
 

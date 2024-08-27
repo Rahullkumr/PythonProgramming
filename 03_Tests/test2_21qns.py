@@ -1,4 +1,4 @@
-solved half
+# solved half
 
 
 # 1.wap to check whether the given number is odd, if odd store the given number in tuple(take user input)

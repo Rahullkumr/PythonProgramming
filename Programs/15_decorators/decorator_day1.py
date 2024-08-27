@@ -148,7 +148,7 @@ add(5,7)
 """
 
 # =======================================
-# Use multiple decorators before executing the main function
+# Use multiple 15_decorators before executing the main function
 
 """
 def outer1(func):

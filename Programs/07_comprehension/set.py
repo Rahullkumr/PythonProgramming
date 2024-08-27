@@ -1,4 +1,4 @@
-# Set comprehension
+# Set 07_comprehension
 
 # 1. 
 x = [1,2,3,4,5,6]

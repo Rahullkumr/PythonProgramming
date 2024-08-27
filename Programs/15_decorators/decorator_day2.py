@@ -216,7 +216,7 @@ main_fn()
 
 
 
-# 13.create a decorator which prints name of called functions and checks the number is even or odd
+# 13.create a decorator which prints name of called 08_functions and checks the number is even or odd
 """
 def decorator_fn(func):
     def wrapper_fn(a):
@@ -334,7 +334,7 @@ late_latif_fn('Rahul', 'Moon South Pole', 9007007007)
 
 
 
-# 18 using 3 decorators show me one example 
+# 18 using 3 15_decorators show me one example
 """
 def decorator1(func):
     def wrapper_fn():

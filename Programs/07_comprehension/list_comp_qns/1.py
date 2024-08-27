@@ -1,4 +1,4 @@
-# List comprehension qns
+# List 07_comprehension qns
 
 
 # 1.wap to check even numbers in a list and return a list containing only even numbers
