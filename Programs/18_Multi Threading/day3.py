@@ -23,6 +23,7 @@ current_thread().setDaemon(True)
 # t1.start()
 
 # SYNCHRONIZATION
+# to get the output sequentially
 """
 3 fns:
     1. lock     ==> used to hold the thread by using acquire(), and release using release()
@@ -44,13 +45,7 @@ t.start()
 t1.start()
 
 
-
-
-
-
-
-
-
+# day4
 
 
 
