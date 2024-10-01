@@ -3,6 +3,8 @@ import numpy as np
 # list
 l = [1,23,4]
 
+
+
 # arrays
 zero_d = np.array([100])
 one_d = np.array([1,2,3])
@@ -17,6 +19,10 @@ print(three_d.ndim, ' dimensional')
 x = np.arange(1,10,1)
 print(x)
 print(np.arange(0,20,2))
+
+
+
+
 
 # range vs arange
 '''
@@ -55,6 +61,10 @@ print(list_of_1s)
 
 o = np.zeros((10,10)) # array of 1s in 10rows 10columns format
 print(o)
+
+
+
+
 
 # diagonal
 d = np.identity(5)  # 5rows 5columns

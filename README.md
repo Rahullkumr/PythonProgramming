@@ -11,4 +11,7 @@ programming questions and materials from PySpider
 
 ## Data Analysis library
 
-1. Introduction to PANDAS
+1. PANDAS
+2. NUMPY
+3. MATPLOTLIB
+4. SEABORN
