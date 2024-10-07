@@ -66,21 +66,32 @@ Time complexity measure, we have 3 types:
 
 '''
 
-import time
-
-start = time.time()
-s = eval(input('Enter the data: '))
-out = s[::-1]
-print(out)
-end = time.time()
-print(end - start)
+# import time
+#
+# start = time.time()
+# s = eval(input('Enter the data: '))
+# out = s[::-1]
+# print(out)
+# end = time.time()
+# print(end - start)
 
 # homework
 # worst time and best time (search for smallest no)
 a = 100
-b = 35
+b = 33
 c = 20
 
+if a<b and a<c:
+    print(f'{a} is the smallest')
+elif b<c:
+    print(f'{b} is the smallest')
+else:
+    print(f'{c} is the smallest')
+
+'''
+worst case time complexity => a,b,c = 100, 35, 20
+best case time complexity  => a,b,c = 20, 35, 100
+'''
 # syllabus:
     # searching
     # sorting
