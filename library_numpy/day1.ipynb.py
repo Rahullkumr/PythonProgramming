@@ -1,16 +1,20 @@
 import numpy as np
 
+# check version of numpy
+print(np.__version__)
+
+
+
 # list
 l = [1,23,4]
 
 
 
 # arrays
-zero_d = np.array([100])
+one_d = np.array([100])
 one_d = np.array([1,2,3])
 two_d = np.array([[1,2,3],[7,8,9]])
 three_d = np.array([[[3,4,5],[5,6,7], [11,12,13]]])
-print(zero_d)
 print(one_d)
 print(two_d)
 print(three_d)
