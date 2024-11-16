@@ -11,10 +11,27 @@ programming questions and materials from PySpider
 ![list2](/images/l2.jpg)
 
 ## Searching Algorithms
-- > use two columns (1 | 2); use carbon.sh
+
+<p align="center">
+  <img src="./images/linearSearch.png" width="300" /> 
+  <img src="./images/binarySearch.png" width="300" />
+</p>
 
 ## Sorting Algorithms
-- > use two columns (1 | 2) use carbon.sh
+
+<p align="center">
+  <img src="./images/bubbleSort.png" width="300" /> 
+  <img src="./images/insertionSort.png" width="300" />
+</p>
+
+<p align="center">
+  <img src="./images/selectionSort.png" width="300" /> 
+  <img src="./images/quickSort.png" width="300" />
+</p>
+
+<p align="center">
+  <img src="./images/mergeSort.png" width="300" /> 
+</p>
 
 
 ## Data Analysis library
