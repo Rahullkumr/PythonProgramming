@@ -9,18 +9,13 @@ in this swapping of values takes place only once in a complete pass
 # steps:
     1. consider a list collection to be sorted
     2. initialise a variable with assumed minimum position
-    3. compare the values with assumed min position if it is greater 
-    change the min position value
+    3. compare the values with assumed min position if it is greater change the min position value
     4. at last swap value present at actual min position with assumed minimum position
     5. repeat the steps from 2 to 4 till length of the collection
 '''
 
 import random as r
-randon_list = []
-for x in range(1,6):
-    randon_list.append(r.randint(1,100))
-print('random list: ', randon_list)
-
+randon_list = [r.randint(1, 100) for no in range(1, 6)]
 
 # def selection_sort(list):
 #     min = 0
@@ -34,20 +29,20 @@ print('random list: ', randon_list)
 # selection_sort(randon_list)
 
 
-#
-min = 0
+# ======================= my way ======================================
+'''
+    sabse chota element hai usko find krna hai, then swap kro ith position se
+'''
+
+
+print(randon_list)
 for i in range(len(randon_list)):
+    min_index = i
     for j in range(i+1, len(randon_list)):
-        if randon_list[min] > randon_list[j]:
-            min = j
-    randon_list[min], randon_list[j]
-    print(randon_list)
-
-
-
-
-
-
+        if randon_list[j] < randon_list[min_index]:
+            min_index = j
+    randon_list[i], randon_list[min_index] = randon_list[min_index], randon_list[i]
+print(randon_list)
 
 
 

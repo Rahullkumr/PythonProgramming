@@ -10,19 +10,24 @@ STEPS:
     s4: if above condition is also true, swap both the values and decrement values of i by 1
     s5: repeat the steps from s3 to s4 for all the passes to get the sorted collection
 '''
-# l = [10,7,3,11,2]
-# print('Original: ', l)
 
-# for iteration in range(1, len(l)):
-#     i = iteration
-#     while i != 0:
-#         if l[i-1] > l[i]:
-#             l[i-1], l[i] = l[i], l[i-1]
-#         i -= 1
-#     print(l)
+
+
+l = [10, 7, 3, 11, 2]
+print('Original: ', l)
+
+for iteration in range(1, len(l)):
+    i = iteration
+    while i != 0:
+        if l[i-1] > l[i]:
+            l[i-1], l[i] = l[i], l[i-1]
+        i -= 1
+print(l)
+
 
 
 # task
+'''
 a = [('akash', 1200), ('vijay', 10000), ('alex', 8000), ('lakshmi', 6000)]
 # o/p ==> [('akash', 1200), ('lakshmi', 6000), ('alex', 8000), ('vijay', 10000)]
 
@@ -33,3 +38,7 @@ for iteration in range(1, len(a)):
             a[i-1], a[i] = a[i], a[i-1]
         i -= 1
 print(a)
+'''
+
+# Insertion sort me jaise jaise aage badhte jate hn waise waise sorting hoti jati hai
+# left side elements are sorted till all gets sorted
