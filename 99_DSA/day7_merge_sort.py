@@ -19,7 +19,7 @@ def merge(a, l, r):
         j, k = j+1, k+1
 
 arr = [1,8,7,5,18,3,2]
-divide(arr)
+# divide(arr)
 
 
 # complete this

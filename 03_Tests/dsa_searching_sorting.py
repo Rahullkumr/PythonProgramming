@@ -5,7 +5,7 @@
 # •	Input: arr = [1, 3, 5, 7, 9, 11], target = 7
 # •	Output: 3 (index of 7)
 '''
-def bin_search(arr, target):
+def binary_search(arr, target):
     si, ei = 0, len(arr) - 1
     while si <= ei:
         mid = (si + ei)//2
@@ -16,7 +16,7 @@ def bin_search(arr, target):
         if target < arr[mid]:
             ei = mid - 1
 arr, target = [1, 3, 5, 7, 9, 11], 7
-print(bin_search(arr, target))
+print(binary_search(arr, target))
 '''
 
 
@@ -28,7 +28,7 @@ print(bin_search(arr, target))
 # •	Input: arr = [1, 3, 3, 3, 5, 7, 9], target = 3
 # •	Output: 3 (index of the last occurrence of 3)
 '''
-def bin_search(arr, target):
+def bin_search_4lastOccurence(arr, target):
     si, ei = 0, len(arr) - 1
     while si <= ei:
         mid = (si + ei)//2
@@ -39,7 +39,7 @@ def bin_search(arr, target):
         if target < arr[mid]:
             ei = mid - 1
 arr, target = [1, 3, 3, 3, 5, 7, 9], 3
-print(bin_search(arr[::-1], target))
+print(bin_search_4lastOccurence(arr[::-1], target))
 '''
 
 
@@ -107,14 +107,14 @@ print(bubble_sort(arr))
 # •	Input: arr = [5, 2, 9, 1, 5, 6]
 # •	Output: [9, 6, 5, 5, 2, 1]
 """
-def bubble_sort(arr):
+def bubble_sort_desc(arr):
     for i in range(1, len(arr)):
         for j in range(len(arr) - i):
             if arr[j] < arr[j+1]:
                 arr[j], arr[j + 1] = arr[j+1], arr[j]
     return arr
 arr = [5, 2, 9, 1, 5, 6]
-print(bubble_sort(arr))
+print(bubble_sort_desc(arr))
 """
 
 
@@ -147,7 +147,7 @@ print(selection_sort(arr))
 # •	Input: arr = [64, 25, 12, 22, 11]
 # •	Output: [64, 25, 22, 12, 11]
 '''
-def selection_sort(arr):
+def selection_sort_desc(arr):
     for i in range(len(arr)):
         min_index = i
         for j in range(i+1, len(arr)):
@@ -156,7 +156,7 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 arr = [64, 25, 12, 22, 11]
-print(selection_sort(arr))
+print(selection_sort_desc(arr))
 '''
 
 
@@ -167,7 +167,18 @@ print(selection_sort(arr))
 # Example:
 # •	Input: arr = [12, 11, 13, 5, 6]
 # •	Output: [5, 6, 11, 12, 13]
-
+'''
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        j = i
+        while j != 0:
+            if arr[j-1] > arr[j]:
+                arr[j-1], arr[j] = arr[j], arr[j-1]
+            j -= 1
+    return arr 
+arr = [12, 11, 13, 5, 6]
+print(insertion_sort(arr))
+'''
 
 
 
@@ -177,10 +188,21 @@ print(selection_sort(arr))
 # Example:
 # •	Input: arr = [12, 11, 13, 5, 6]
 # •	Output: [13, 12, 11, 6, 5]
+'''
+def insertion_sort_desc(arr):
+    for i in range(1, len(arr)):
+        j = i
+        while j != 0:
+            if arr[j-1] > arr[j]:
+                arr[j-1], arr[j] = arr[j], arr[j-1]
+            j -= 1
+    return arr 
+arr = [12, 11, 13, 5, 6]
+print(insertion_sort_desc(arr))
+'''
 
 
 
-#
 # Basic Quick Sort
 # Question:
 # Implement the basic quick sort algorithm to sort an array in ascending order.
