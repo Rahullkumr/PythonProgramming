@@ -209,7 +209,18 @@ print(insertion_sort_desc(arr))
 # Example:
 # •	Input: arr = [10, 7, 8, 9, 1, 5]
 # •	Output: [1, 5, 7, 8, 9, 10]
-
+'''
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivot = arr[0]
+        lesser = [x for x in arr[1:] if x <= pivot]
+        greater = [x for x in arr[1:] if x > pivot]
+        return quick_sort(lesser) + [pivot] + quick_sort(greater)
+arr = [10, 7, 8, 9, 1, 5]
+print(quick_sort(arr))
+'''
 
 
 
@@ -221,3 +232,18 @@ print(insertion_sort_desc(arr))
 # Example:
 # •	Input: arr = [10, 7, 8, 9, 1, 5]
 # •	Output: [10, 9, 8, 7, 5, 1]
+
+def quick_sort_desc(myarr):
+    if len(myarr) <= 1:
+        return myarr
+    else:
+        pivot = myarr[0]
+        lesser = [x for x in myarr[1:] if x >= pivot]
+        greater = [x for x in myarr[1:] if x < pivot]
+        return quick_sort_desc(lesser) + [pivot] + quick_sort_desc(greater)
+
+
+arr = [10, 7, 8]
+print(arr)
+print(quick_sort_desc(arr))
+
