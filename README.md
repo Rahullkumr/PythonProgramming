@@ -31,6 +31,7 @@ programming questions and materials from PySpider
 
 <p align="center">
   <img src="./images/mergeSort.png" width="300" /> 
+  <img src="./images/complexity.jpeg" width="300" /> 
 </p>
 
 
@@ -40,3 +41,4 @@ programming questions and materials from PySpider
 2. NUMPY
 3. MATPLOTLIB
 4. SEABORN
+5. PowerBI
