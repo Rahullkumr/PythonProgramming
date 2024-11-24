@@ -16,7 +16,18 @@ Example:
     Output:         3
     Explanation:    The repeated digits in the data are 7, 8 and 3. So the security key is 3.
 """
+# '''
+def securityKey(data):
+    return len([x for x in {i:str(data).count(i) for i in str(data)}.values() if x > 1])
 
+def main():
+    # data = int()
+    data = 578378923
+
+    result = securityKey(data)
+    print(result)
+main()
+# '''
 
 
 
@@ -48,3 +59,25 @@ Example:
     Explanation:
         The character 'j' at the end of the sent string was lost in the network during transmission.  
 """
+# '''
+def lostCharNW(stringSent, stringRec):
+    if len(stringSent) == len(stringRec):
+        return None 
+    
+    for i in range(len(stringRec)):
+        if stringRec[i] != stringSent[i]:
+            return stringRec[i]
+    return stringSent[i+1]
+
+def main():
+    # stringSent = str(input())
+    stringSent = 'abcdfjgerj'
+
+    # stringRec = str(input())
+    stringRec = 'abcdfjger'
+
+    result = lostCharNW(stringSent, stringRec)
+    print(result)
+
+main()
+# '''
