@@ -41,4 +41,5 @@ programming questions and materials from PySpider
 2. NUMPY
 3. MATPLOTLIB
 4. SEABORN
-5. PowerBI
+
+- [Data Analysis Internship notes](./notes.md)

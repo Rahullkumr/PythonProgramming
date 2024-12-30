@@ -88,5 +88,7 @@
 
 # 2. Libraries
 
+- [Data Analysis Internship notes](https://docs.google.com/document/d/16KtDD6qu3pR-f2_jEcRVontHcLbn6htxWmp5yCbexxw/edit?pli=1&tab=t.0)
+
 1. [Pandas]()
 
