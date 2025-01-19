@@ -1,5 +1,5 @@
 # Django 5
 
-This folder contains notes and codes of Django classes by Prabhu sir (PySpider).
+This folder contains notes and codes of online Django classes by Rajat sir (PySpider).
 
 ## List of Contents
