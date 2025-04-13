@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disp data</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    {% if data %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Sal</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in data %}
+                    <tr>
+                        <td>{{i.id}}</td>
+                        <td>{{i.e_name}}</td>
+                        <td>{{i.e_age}}</td>
+                        <td>{{i.e_sal}}</td>
+                        <td>{{i.e_add}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <h1>Data not present</h1>
+    {% endif %}
+</body>
+</html>
