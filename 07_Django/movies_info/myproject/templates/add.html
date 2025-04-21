@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="centerme">
+    {% for msg in messages %}
+        <h1 style="color: rgb(80, 230, 80);">{{msg}}</h1> <br>
+    {% endfor %}
+    <form method="POSt">
+        {% csrf_token %}
+        <h1 style="color: rgb(11, 116, 11);">Movie Registration Form</h1>  <br><br>
+        {{form}} <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock content %}

@@ -1,0 +1,39 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="centerme">
+    {% if data %}
+        <h1 style='color:green;'>Movies Information</h1> <br><br>
+        <table cellspacing=0>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Release date</th>
+                    <th>Hero</th>
+                    <th>Heroine</th>
+                    <th>Director</th>
+                    <th>Language</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in data %}
+                    <tr>
+                        <td>{{i.id}}</td>
+                        <td>{{i.mname}}</td>
+                        <td>{{i.rdate}}</td>
+                        <td>{{i.hero}}</td>
+                        <td>{{i.heroine}}</td>
+                        <td>{{i.director}}</td>
+                        <td>{{i.lang}}</td>
+                        <td>{{i.rating}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <h1>Records not found</h1>
+    {% endif %}
+</div>
+{% endblock content %}
